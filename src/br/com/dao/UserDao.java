@@ -1,10 +1,10 @@
-package br.com.services;
+package br.com.dao;
 
 import java.util.List;
 
 import br.com.beans.User;
 
-public interface UserDIT {
+public interface UserDao {
 
 	void addUser(User user);
 	
